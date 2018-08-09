@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native'
-import { FrontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons'
+import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons'
 import { black } from './colors'
 
 export function getMetricMetaInfo (metric) {
@@ -68,7 +68,7 @@ export function getMetricMetaInfo (metric) {
       getIcon() {
         return (
           <View>
-            <FontAwesom
+            <FontAwesome
               name='bed'
               color={black}
               size={30}
